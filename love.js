@@ -1,6 +1,6 @@
 var c = 0;
 
-var when = ["know me"];
+var when = [];
 
 function shuffle(array) {
     array.sort(()=>Math.random() - 0.5);
@@ -16,7 +16,7 @@ $(document).click(function(e) {
         $("<p>" + when[c] + "</p>").hide().prependTo("#when-you").fadeIn(2000);
         c++;
         if (c == when.length) {
-            $("<p>love me too </p>").hide().prependTo("#when-you").fadeIn(2000);
+            $("<p>know me </p>").hide().prependTo("#when-you").fadeIn(2000);
 
             $("body").css('background', '#000');
             $("#g p").css('color', '#fff');
