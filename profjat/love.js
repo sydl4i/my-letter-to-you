@@ -1,6 +1,6 @@
 var c = 0;
 
-var when = ["hold intense emotionless eye contact before making a face and laughing", "making everyone fried rice"];
+var when = ["hold intense emotionless eye contact before making a face and laughing", "make everyone fried rice", "have intense conversations about music stuff with caden"];
 
 function shuffle(array) {
     array.sort(()=>Math.random() - 0.5);
