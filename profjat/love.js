@@ -1,6 +1,6 @@
 var c = 0;
 
-var when = ["know me"];
+var when = ["hold intense emotionless eye contact before making a face and laughing", "making everyone fried rice"];
 
 function shuffle(array) {
     array.sort(()=>Math.random() - 0.5);
